@@ -1,0 +1,19 @@
+.ht{color:red;
+margin:100px 0px;
+font-weight:bolder;}
+
+section{border:solid 1px green;
+margin:10px 0px;height:auto;}
+
+section span{
+	font-size:20px;padding:15px;
+	color:blue;margin:0px 4px;
+}
+
+.brand{border-bottom:4px brown dashed;
+color:brown;display:inline-block;}
+
+#itm_id{color:lightblue;border:solid lightblue 2px;
+font-size:25px;padding:11px;}
+font + i{border:red 12px solid;
+padding:11px;color:red;}

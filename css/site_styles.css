@@ -1,0 +1,133 @@
+
+html,body{margin:0px;padding:0px;}
+
+.hd_cover{background:rgba(0,0,0,0.7);height:100%}
+
+.hd_lead_ct{padding-top:30px}
+.hd_lead_text{font-size:50px;color:lightgray;
+text-align:center;font-family:"Arial"}
+
+.hd_nav_ct{padding-top:25px}
+.hd_nav{text-align:center;background:white;
+padding:25px 30px;margin:0px 40px;
+border-radius:15px;}
+
+.nav_link{color:#02B7D0;font-size:21px;
+text-decoration:none;margin:0px 8px;}
+
+.hd_form{background:rgba(255,255,255,0.5);
+padding:20px 0px;margin:20px 40px;
+border-radius:15px;}
+
+.hd_form form{margin:0px 11px;}
+.form_item{display:inline-block;width:40%;
+text-align:center;}
+.form_item2{display:inline-block;
+width:15%;text-align:center;}
+
+
+.form_item input,select,button{
+	border-radius:10px;
+	border:solid 1px lightblue;}
+
+.form_item input,select{
+width:95%;padding:12px 5px;
+font-size:18px;
+}
+
+.form_item2 button{display:inline-block;
+width:90%;padding:12px 5px;
+font-size:18px;background:lightblue;
+}
+/*feature sections*/
+
+.feature{margin:20px;}
+.feature_title{margin:20px;
+text-align:center;
+font-size:25px;padding:10px;
+font-family:"Arial"}
+
+
+.feature_item{padding-top:10px;
+padding-bottom:10px;width:15%;height:150px;
+display:inline-block;margin:5px;
+border:solid 1px lightgray;
+text-align:center;cursor:pointer;}
+
+
+.feature_item:hover{
+border:solid 2px lightblue;
+}
+
+
+
+.feature_img{width:80%;height:80%;
+margin:2px;display:inline-block;}
+
+.feature_text{font-size:18px;padding:5px;
+font-family:"calibri"}
+
+
+
+.video{background:black;
+text-align:center;
+padding:40px;}
+
+
+
+/*our services */
+
+.service{margin:20px;padding:20px;
+text-align:center;}
+.service_title{margin:5px;
+text-align:center;
+font-size:25px;padding:20px;
+font-family:"Arial";background:black;
+color:lightblue;}
+
+.service_content{
+text-align:center;
+padding:5px;width:40%;
+display:inline-block;
+height:200px;margin:20px;
+border:solid 2px lightblue;
+}
+
+
+.service_content a{
+	text-decoration:none;
+	font-size:18px;
+text-align:center;
+padding:5px;width:40%;
+display:inline-block;
+margin:10px;border-radius:10px;
+border:solid 2px lightblue;
+}
+
+
+
+
+/*media query*/
+
+@media screen and (max-width:750px){
+.hd_element{height:550px;}	
+.form_item {width:95%;margin-top:10px;}	
+.form_item2 {width:95%;margin-top:10px;}
+
+.service_content{width:80%;}
+
+.feature_item{width:75%;height:200px;}
+
+.feature{text-align:center;}
+
+
+	
+	
+}
+
+
+
+@media screen and (max-width:700px){
+.hd_element{height:680px;}	
+}
+
